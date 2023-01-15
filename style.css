@@ -151,3 +151,29 @@ h2{
 .Columns:hover .column{
     background-color: rgb(173, 193, 255);
 }
+
+.row{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
