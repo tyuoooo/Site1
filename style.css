@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.header{
+    background-color: aqua;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img{
+    width:auto ;
+    height:80% ;
+    margin: 10px;
+    border-radius: 200px 200px 200px 200px;
+    border: 10px solid #000000;
+
+    box-shadow: 0px 0px 108px 20px rgb(18, 141, 255);
+}
+
+.navi{
+    background-color: aqua;
+    height: auto;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex: 100%;
+}
+
+ul li{
+    width: 20%;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    font: bold 13px sans-serif;
+    background-color: #000000;
+    color: aliceblue;
+    border: solid 2px #000000;   
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+li:hover a{
+    background-color: blueviolet;
+} 
+
+
+
+.main{
+    display: flex;
+    height: auto;
+}
+
+.content{
+    flex: 60%;
+    background-color: aquamarine;
+    height: auto;
+    padding: 10px;
+}
+
+.Post{
+    display: flex;
+    color: #000000;
+    background-color: beige;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Post img{
+    width: 280px;
+    height: 250px;
+}
+
+.sidebar{
+    flex: 30%;
+    background-color: rgb(187, 187, 187);
+    height: auto;
+}
+
+.footeer {
+    background-color: aqua;    
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer img {
+    height: 200px;
+}
+
+.Columns{
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+h2{
+    background-color: aquamarine;
+
+   
+}
+.Column:hover h2{
+    background-color: blueviolet;
+}
+
+.column{
+    border-radius: 15px;
+    border: solid 2px rgb(0,0,0);
+    background-color: beige;
+    min-width: 200px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.Columns:hover .column{
+    background-color: rgb(173, 193, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
