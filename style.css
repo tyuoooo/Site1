@@ -2,6 +2,7 @@ body{
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
     padding: 20px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .container{
@@ -100,6 +101,7 @@ li:hover a{
     flex: 30%;
     background-color: rgb(187, 187, 187);
     height: auto;
+    font-family: 'Rowdies', cursive;
 }
 
 .footeer {
@@ -149,26 +151,3 @@ h2{
 .Columns:hover .column{
     background-color: rgb(173, 193, 255);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
